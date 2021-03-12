@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background: #0ece4e;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    padding: 25px;
+
+
+}
+
+nav ul{
+
+    display: inline-block;
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a{
+
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 2em;
+    padding: 30px;
+    transition: 0.8s;
+}
+
+nav ul li a:hover{
+
+    color:brown;
+    background-color: aliceblue;
+    padding: 30px;
+   
+}
+
+
+
+
+
+.logo{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: absolute;
+    top: 17px;
+    left: 0;
+}
+
+
+img#carticon{
+    margin-right: 50px;
+    
+}
+img#carticon:hover{
+   background-color: #ff1515;
+    
+}
+
+
+
+
+
+
+
+.slide{
+
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+.col{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+
+.col img{
+
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col img{
+
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.col h1{
+
+    font-size: 40px;
+    line-height: 60px;
+    margin: 25px 0;
+
+}
+
+
+.btn{
+
+    background: #238b35;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.8s;
+
+    
+}
+
+.btn:hover{
+
+    background: #ff1515;
+    color: azure;
+    text-decoration: none;
+    border-radius: 40px;
+
+    
+}
+
+
+
+
+.categories{
+
+
+    margin: 70px 0;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+
+
+.cat{
+    flex-basis: 30%;
+   
+    max-width: 200px;
+    max-height: 300px;
+    margin-left: 25px;
+
+ 
+    margin-bottom: 40px;
+
+}
+
+.cat img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.smallcontainer{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+
+.cattitle{
+    text-align: center;
+    padding: 40px;
+
+    color: #238b35;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.categories{
+    margin: 70px 0;
+
+}
+
+.cat{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+
+}
+
+.cat img{
+    width: 100%;
+}
+
+
+.sub-categories{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+*/
